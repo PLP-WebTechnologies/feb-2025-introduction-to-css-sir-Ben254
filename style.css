@@ -1,0 +1,65 @@
+/* Global settings */
+body {
+    font-family: 'Arial', sans-serif;  /* Font family for all text */
+    margin: 0;  /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    background-color: #f0f4f8; /* Light background color for the page */
+    color: #333;  /* Dark text color for readability */
+}
+
+/* Header styling */
+header {
+    background-color: #3498db; /* Blue background for header */
+    color: white;  /* White text color */
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+/* Paragraph class for intro text */
+.intro {
+    font-style: italic;  /* Italicize the intro paragraph */
+    font-size: 1.2rem;  /* Slightly larger font for the intro text */
+}
+
+/* Section styling */
+.content {
+    padding: 20px;
+    background-color: white;
+    margin: 0 10px;
+    border-radius: 8px; /* Rounded corners for the section */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Soft shadow for the section */
+}
+
+/* ID selector for the "About" heading */
+#about {
+    color: #e74c3c;  /* Red color for the "About" section heading */
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+/* Image styling using class selector */
+.image-style {
+    display: block;  /* Ensures image behaves as a block element */
+    margin: 20px auto; /* Centers the image horizontally and adds margin */
+    border-radius: 8px;  /* Rounded corners for the image */
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #ecf0f1;  /* Light gray background for footer */
+    margin-top: 40px;
+    border-top: 1px solid #ddd; /* Border at the top of the footer */
+}
+
+footer p {
+    font-size: 1rem;
+    color: #555;  /* Slightly lighter gray for footer text */
+}

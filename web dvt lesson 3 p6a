@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Page with External CSS</title>
+    <!-- Linking the external CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to My Styled Page</h1>
+        <p class="intro">This is a page styled with an external CSS file.</p>
+    </header>
+
+    <section class="content">
+        <h2 id="about">About the Page</h2>
+        <p>This page demonstrates the use of different selectors, fonts, colors, and spacing.</p>
+
+        <img src="https://via.placeholder.com/300" alt="us chilling" class="image-style">
+
+        <p>This paragraph will be styled using different margin, padding, and border rules.</p>
+    </section>
+
+    <footer>
+        <p>Footer content with styled text.</p>
+    </footer>
+
+</body>
+</html>
